@@ -1,0 +1,49 @@
+body{
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: center;
+}
+
+.header{
+	text-align: center;
+	background-color: grey;
+	width: 700px;
+	margin: 0 auto;
+	height: auto;
+	padding: 25px 0 100px 0;
+}
+input{
+	width: 200px;
+	height: 25px;
+}
+.add{
+	height: 30px;
+	width: 50px;
+	margin-left: 10px;
+	background-color: green;
+	color: white;
+	font-size: 16px;
+}
+.list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+ul li{
+	list-style-type: none;
+}
+.item{
+	padding: 2px 2px 2px 10px;
+	width: 300px;
+	border: 1px solid white;
+	height: 25px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7px;
+}
+.done{
+	background-color: green;
+}
